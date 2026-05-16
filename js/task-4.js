@@ -4,7 +4,7 @@ form.addEventListener('submit', event => {
   event.preventDefault();
 
   if (
-    form.elements.email.value.trim() !== '' &&
+    form.elements.email.value.trim() !== '' ||
     form.elements.password.value.trim() !== ''
   ) {
     const formData = {
